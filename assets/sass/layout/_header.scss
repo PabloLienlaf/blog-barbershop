@@ -1,0 +1,45 @@
+.header {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: block;
+  clear: both;
+  &__figure {
+    width: 100vw;
+    overflow: hidden;
+  }
+  &__image {
+    width: 100%;
+    height: auto;
+  }
+  &__figcaption {
+    width: 100%;
+    max-width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    bottom: 45%;
+    left: 20%;
+    right: 20%;
+    z-index: 1;
+  }
+  &__title {
+    font-family: $playfair-display;
+    font-weight: $black-it;
+    font-style: italic;
+    font-size: $xx-large;
+    }
+}
+
+.arrow {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 70px;
+  i{
+    color: $white;
+    font-size: $x-large;
+  }
+}

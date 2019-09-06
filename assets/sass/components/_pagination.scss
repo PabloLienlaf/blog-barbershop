@@ -1,0 +1,26 @@
+.BlogPagination {
+  background-color: $light-gray;
+  padding: 3em 0;
+  &__buttonleft {
+    margin-left: 0;
+    border-top-left-radius: 1rem!important;
+    border-bottom-left-radius:1rem!important;
+  }
+  &__buttonright {
+    margin-left: 0;
+    border-top-right-radius: 1rem!important;
+    border-bottom-right-radius:1rem!important;
+    color: $eerie-black;
+  }
+  &__buttonnumber {
+    color: $eerie-black;
+  }
+  .page-link {
+    color: $eerie-black;
+  }
+  .page-item.active .page-link {
+    color: $white;
+    background-color: $raisin-black;
+    border-color: $nickel;
+  }
+}

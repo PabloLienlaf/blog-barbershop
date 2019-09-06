@@ -1,0 +1,31 @@
+.BlogContent {
+  h4, p {
+    padding-bottom: 1em;
+  }
+}
+
+.AuthorDescription {
+  padding: 4em 0;
+  border-top: solid 1px $light-gray;
+  border-bottom: solid 1px $light-gray;
+  vertical-align: middle;
+  align-self: center;
+  &__image-round{
+    border: 1px solid $light-gray;
+    border-radius: 100%;
+    max-width: 80%;
+    max-height: 80%;
+  }
+  &__link-contact {
+    font-family: $roboto;
+    font-weight: $rb-light;
+    font-size: $large;
+  }
+  &__title{
+    padding-top: 20%;
+  }
+  &__text {
+    font-size: $small;
+    padding-top: 10%;
+  }
+}

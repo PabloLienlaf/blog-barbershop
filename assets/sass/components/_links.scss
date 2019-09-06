@@ -1,0 +1,15 @@
+a.active:link{
+	color:$ruddy-pink!important;
+	font-size: $medium!important;
+	text-decoration: none;
+	&:hover{
+		color:$light-gray!important;
+		font-size:$medium!important;
+		text-decoration: none;
+	}
+	&:active{
+		color:$light-gray!important;
+		font-size:$medium!important;
+		text-decoration: none;
+	}
+}

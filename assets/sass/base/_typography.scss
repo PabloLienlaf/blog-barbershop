@@ -1,0 +1,43 @@
+h1 {
+  font-family: $roboto;
+  color: $white;
+  font-weight: $black-it;
+  font-size: $xx-large;
+}
+
+h2 {
+  font-family: $roboto;
+  color: $white;
+  font-weight: $bold;
+  font-size: $xx-large;
+}
+
+h3 {
+  font-family: $playfair-display;
+  color: $raisin-black;
+  font-size: $x-large;
+  font-weight: $black-it;
+  font-style: italic;
+}
+
+h4 {
+  font-family: $playfair-display;
+  color: $nickel;
+  font-size: $large;
+  font-weight: $black-it;
+}
+
+p {
+  color: $nickel;
+  font-weight: $regular;
+  font-size: $medium;
+  line-height: 200%;
+}
+
+a {
+  color: $ruddy-pink;
+  text-decoration: none!important;
+    &:hover{
+      color: $spanish-pink;
+    }
+}

@@ -1,0 +1,26 @@
+.bg-eerie {
+  background-color: $eerie-black;
+}
+.navbar-brand {
+  img {
+    max-width: 80px;
+  }
+}
+
+li.nav-item {
+  a.nav-link{
+    color: $white!important;
+  }
+}
+
+li.nav-item:hover {
+  a.nav-link{
+    color: $light-gray!important;
+  }
+}
+
+li.nav-item.active {
+  a.nav-link{
+    color: $ruddy-pink!important;
+  }
+}
